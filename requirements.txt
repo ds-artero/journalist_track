@@ -1,0 +1,16 @@
+webscraper-app/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py              # FastAPI entry point
+│   ├── routes/
+│   │   └── search.py        # /search endpoint
+│   ├── services/
+│   │   └── scraper.py       # Playwright scraping logic
+│   ├── models/
+│   │   └── result_model.py  # Pydantic data model
+│   └── utils/
+│       └── helpers.py       # future: caching, rate limiting
+│
+├── requirements.txt
+└── README.md
